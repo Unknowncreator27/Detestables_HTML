@@ -1,0 +1,6 @@
+READ CAREFULLY
+
+when creating code, you are allowed to change, add or remove code, but when adding code, please try to make use of
+comments to tell others what the code does sothat they can also learn.
+
+Happy Coding...

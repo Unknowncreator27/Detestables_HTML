@@ -1,0 +1,51 @@
+* {                             /* This code tells HTML to set the margin and padding of the whole page (all tags)
+                                 to 0*/
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background-color: #909090; /* This sets the background color of the page to grey */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: #EFEFEF;
+
+}
+header nav {
+    display: flex;  
+    justify-content: flex-end;  /* This tells HTML to push the nav items to the right (end)*/
+    
+}
+
+header nav ul {
+    display: flex;  /* This line makes it possible for the nav item to dispay side-by-side */ 
+    
+}
+
+header nav ul li {
+    list-style: none; /* this removes the list item from the nav (cirlce, square, 1, I, etc.)*/
+    margin: 20px; /* This adds space between the nav items */
+    
+    
+}
+
+header nav ul li a {
+    text-decoration: none;  /* this removes the underline from the nav items (a tag)*/
+}
+#boxes {
+    display: flex;
+    margin: auto;
+    justify-content: center; /* center children (in this case box_1) horizontally */
+    align-items: center;     /* center children (in this case box_1) vertically */
+}
+
+#boxes .box_1{
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    
+    margin: 5px;
+    background-color: #111;
+}
