@@ -33,6 +33,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;  /* this removes the underline from the nav items (a tag)*/
+    color: #000;    /* Sets the color of the font to black */
 }
 #boxes {
     display: flex;
@@ -41,11 +42,44 @@ header nav ul li a {
     align-items: center;     /* center children (in this case box_1) vertically */
 }
 
-#boxes .box_1{
-    width: 15px;
-    height: 15px;
-    border-radius: 20px;
-    
+#boxes .box_1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px; /* Makes the radius of the boxes round (try changing it)*/
     margin: 5px;
     background-color: #111;
+    display: flex;
 }
+
+#boxes .box_1 .box_box {
+    background-color: #56ff45;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: auto;   /* Makes the box center */
+}
+#text {
+    margin: auto;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    gap: 20px;      /* Spacing between the two sections*/
+    align-items: flex-start;    /* Aligns the items to the top*/
+}
+
+#text h6 {
+    font-size: 15px;    /* Sets the font size */
+    padding: 20px;
+    max-width: 500px; /* Sets the max width */
+    
+}
+
+#aside aside {
+    display: flex;
+    max-width: 500px;
+
+    padding: 20px;
+}
+
