@@ -7,6 +7,7 @@
 body {
     background-color: #909090; /* This sets the background color of the page to grey */
     font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://wallpapercave.com/wp/6SLzBEY.jpg);
 }
 
 header {
@@ -31,6 +32,7 @@ header .logo img {
 }
 header .logo h3 {
     margin: auto;
+    color: #32da32;
 }
 header nav {
     display: flex;  
@@ -56,7 +58,7 @@ header nav ul li a:hover {
 
 header nav ul li a {
     text-decoration: none;  /* this removes the underline from the nav items (a tag)*/
-    color: #000;    /* Sets the color of the font to black */
+    color: #333;    /* Sets the color of the font to black */
 }
 
 main {
@@ -79,30 +81,48 @@ main {
     font-size: 15px;    /* Sets the font size */
     padding: 20px;
     max-width: 500px; /* Sets the max width */
+    color: #dff;
     
 }
 
 #aside aside {
     display: flex;
-    max-width: 500px;
-
     padding: 20px;
+    color: #dff;
 }
 
 
+.hr-html-css {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .html-code h3{
     margin: auto;
     justify-content: center;
     display: flex;
+    color: #dff;
 
 }
 
 .html-code a {
     text-decoration: none;
-    color: #333;
+    color: #dff;
 }
 
 .html-code a:hover {
     color: #32da32;
+}
+
+.grid {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Sets the amount of grid colums*/
+    grid-template-rows: repeat(4, 1fr); /* Sets the amount of grid rows */
+    gap: 20px; /* Sets the gap betweem each column*/
+}
+
+.grid div p {
+    color: #dff;
 }
