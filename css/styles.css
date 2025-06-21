@@ -7,16 +7,34 @@
 body {
     background-color: #909090; /* This sets the background color of the page to grey */
     font-family: 'Courier New', Courier, monospace;
-    
 }
 
 header {
     background-color: #EFEFEF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
 
+}
+
+header .logo {
+    display: flex;
+}
+
+header .logo img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+header .logo h3 {
+    margin: auto;
 }
 header nav {
     display: flex;  
-    justify-content: flex-end;  /* This tells HTML to push the nav items to the right (end)*/
+      /* This tells HTML to push the nav items to the right (end)*/
     
 }
 
@@ -32,33 +50,20 @@ header nav ul li {
     
 }
 
+header nav ul li a:hover {
+    color: #32da32;
+}
+
 header nav ul li a {
     text-decoration: none;  /* this removes the underline from the nav items (a tag)*/
     color: #000;    /* Sets the color of the font to black */
 }
-#boxes {
-    display: flex;
-    margin: auto;
-    justify-content: center; /* center children (in this case box_1) horizontally */
-    align-items: center;     /* center children (in this case box_1) vertically */
+
+main {
+    padding: 20px;
 }
 
-#boxes .box_1 {
-    width: 20px;
-    height: 20px;
-    border-radius: 20px; /* Makes the radius of the boxes round (try changing it)*/
-    margin: 5px;
-    background-color: #111;
-    display: flex;
-}
 
-#boxes .box_1 .box_box {
-    background-color: #56ff45;
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    margin: auto;   /* Makes the box center */
-}
 #text {
     margin: auto;
     display: flex;
@@ -84,3 +89,20 @@ header nav ul li a {
     padding: 20px;
 }
 
+
+
+.html-code h3{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+
+}
+
+.html-code a {
+    text-decoration: none;
+    color: #333;
+}
+
+.html-code a:hover {
+    color: #32da32;
+}
