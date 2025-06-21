@@ -1,0 +1,29 @@
+
+            <div class="">
+                <video class="html-bg-vid" autoplay muted loop>
+                    <source src="https://videos.pexels.com/video-files/11274341/11274341-uhd_2560_1440_25fps.mp4" type="video/mp4">
+                    your browser does not support this type of video tag.
+                </video>
+            </div>
+
+            #what-to-know {
+    margin: 10px;
+}
+#what-to-know .html {
+    font-weight: bold;
+}
+
+.bg-vid-con {
+    width: 20px;
+    height: 20px;
+}
+
+.bg-vid-con .html-bg-vid {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    margin: auto;
+    object-fit: cover; /* This tells html that this element is to cover the section (fill) */
+    z-index: -1;       /* Sends the video to the back (background)*/
+}
