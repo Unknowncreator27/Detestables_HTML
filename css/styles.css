@@ -77,6 +77,10 @@ main {
     align-items: flex-start;    /* Aligns the items to the top*/
 }
 
+#what-to-know {
+    color: #dff;
+}
+
 #text h6 {
     font-size: 15px;    /* Sets the font size */
     padding: 20px;
@@ -111,6 +115,7 @@ main {
     color: #dff;
 }
 
+
 .html-code a:hover {
     color: #32da32;
 }
@@ -126,3 +131,39 @@ main {
 .grid div p {
     color: #dff;
 }
+
+footer {
+    background-color: #fff;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+footer .copy-content {
+    display: flex;
+    flex-direction: column; /* sets the direction of the items to column */
+    align-items: center;
+}
+
+.icons {
+    display: flex;   
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.icons .insta:hover {
+    color: #ec10b5;
+}
+
+.icons .facebook:hover {
+    color: #0469f6;
+}
+
+.icons .yt:hover {
+    color: #f60418;
+}
+
+.icons .snap:hover {
+    color: #f6f604;
+}
+
