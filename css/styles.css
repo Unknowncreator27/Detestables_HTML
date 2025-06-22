@@ -176,11 +176,12 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    /* max-width: 1000px; */
-
-    
+    /* max-width: 1000px; */    
     margin: auto;
-    
+    position: sticky;
+    top: 0;
+
+
 }
 
 .normal_text {
@@ -193,12 +194,16 @@ main {
     background-color: #7a5714;
     border: #45371c 2px solid;
     margin-bottom: 10px;
+    z-index: 100;
+    padding: 10px;
+
 }
 
 .key-words ul li {
     /* background: #f0f4f8; */
     margin: 5px;
-    position: sticky;
+    
+    
 }
 
 .my-movies {
