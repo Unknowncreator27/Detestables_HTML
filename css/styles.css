@@ -1,8 +1,3 @@
-* {                             /* This code tells HTML to set the margin and padding of the whole page (all tags)
-                                 to 0*/
-    margin: 0;
-    padding: 0; 
-}
 
 body {
     background-color: #333; /* This sets the background color of the page to grey */
@@ -89,6 +84,18 @@ main {
     color: #dff;
 }
 
+.float_lft {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.float_right {
+    width: 70px;
+    height: 70px;
+    float: right;
+}
+
 #text h6 {
     font-size: 15px;    /* Sets the font size */
     padding: 20px;
@@ -162,10 +169,71 @@ main {
 
 .grid div img:hover {       /* What happens when an item is hovered on */
      border: solid 2px #32da32;
+        
+}
+
+.aside-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    /* max-width: 1000px; */
+
     
+    margin: auto;
     
 }
 
+.normal_text {
+    flex: 3;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #EFEFEF;
+}
+.key-words {
+    background-color: #7a5714;
+    border: #45371c 2px solid;
+    margin-bottom: 10px;
+}
+
+.key-words ul li {
+    /* background: #f0f4f8; */
+    margin: 5px;
+    position: sticky;
+}
+
+.my-movies {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.movie-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    text-align: left;
+    font-size: 16px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+
+.movie-table thead {
+    background-color: #0077aa;
+    color: #fff;
+    
+}
+
+.movie-table tr, .movie-table td {
+    padding: 12px 15px;
+    border: 1px solid #000;
+}
+.movie-table tbody tr:hover {
+    background-color: #e6f4fa;
+}
 
 footer {
     background-color: #fff;
