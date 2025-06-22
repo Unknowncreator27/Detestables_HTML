@@ -1,4 +1,6 @@
-
+section {
+    position: relative;
+}
 
 #Sticknav {
     background: linear-gradient(90deg, #FF0000, #00FF00);
@@ -6,4 +8,5 @@
     text-align: center;
     position: sticky;
     top: 0px;
+    z-index: 1000;
 }
