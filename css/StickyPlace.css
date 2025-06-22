@@ -1,5 +1,6 @@
 section {
     position: relative;
+    overflow: visible;
 }
 
 #Sticknav {
@@ -8,4 +9,5 @@ section {
     text-align: center;
     position: sticky;
     top: 0px;
+    z-index: 1000;
 }
