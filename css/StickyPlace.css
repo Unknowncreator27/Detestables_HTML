@@ -1,9 +1,7 @@
-section {
-    position: relative;
-}
+
 
 #Sticknav {
-    background-color: grey;
+    background: linear-gradient(90deg, #FF0000, #00FF00);
     height: 40px;
     text-align: center;
     position: sticky;

@@ -1,3 +1,5 @@
+
+
 main {
     padding: 20px;
     color: azure;
@@ -72,3 +74,9 @@ section div {
     top: 20px;
     right: 20px;
 }
+
+.sticky {
+    position: sticky;
+    top: 0px;
+}
+
