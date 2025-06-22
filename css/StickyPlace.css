@@ -1,0 +1,11 @@
+section {
+    position: relative;
+}
+
+#Sticknav {
+    background-color: grey;
+    height: 40px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
