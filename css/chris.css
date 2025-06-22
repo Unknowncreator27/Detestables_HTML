@@ -37,3 +37,38 @@ img {
 #right {
     float: right;
 }
+
+section {
+    padding-bottom: 10px;
+}
+
+section div {
+    height: 150px;
+    width: 150px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+#relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+/*#Absolute {
+    position: absolute;
+    top: 5px;               This sends the blue box to the top left of the whole webpage
+    left: 5px;
+}*/
+
+#Fixed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
